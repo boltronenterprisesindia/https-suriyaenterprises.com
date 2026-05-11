@@ -1938,3 +1938,68 @@ h2 {
     max-height: 160px;
   }
 }
+
+/* Services page cards */
+.service-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* All service images same style */
+.service-img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+}
+
+/* Mobile view – image smaller */
+@media (max-width: 576px) {
+  .service-img {
+    max-height: 180px;
+  }
+}
+/* Services page cards */
+.service-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* All service images same style */
+.service-img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+}
+
+/* Mobile view – image smaller */
+@media (max-width: 576px) {
+  .service-img {
+    max-height: 180px;
+  }
+}
+
+.ep-img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .ep-img {
+    max-height: 140px;
+  }
+}
+
+/* Common image style for services page (products + services + feed) */
+.ep-img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+}
+
+/* Mobile: make images shorter */
+@media (max-width: 576px) {
+  .ep-img {
+    max-height: 160px;
+  }
+}
